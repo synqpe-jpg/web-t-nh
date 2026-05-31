@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Lora", Lora, Georgia, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-art-bg: #FDFCFB;
+  --color-art-text: #1A1A1A;
+  --color-art-highlight: #E2D1C3;
+  --color-art-card-hover: #F2EFE9;
+}
+
+/* Custom scrollbar to match our elegant light warm museum archive */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FDFCFB;
+  border-left: 1px solid #1A1A1A;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1A1A1A;
+  border: 2px solid #FDFCFB;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #E2D1C3;
+}
